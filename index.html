@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#"><span>Pawankumar</span> Pawar</a>
+          </div>
+          <div class="list-darkmode-menu">
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <label class="mode">
+              <input type="checkbox" checked="checked" id="darkModeButton" />
+              <i class="fa-solid fa-sun"></i>
+              <i class="fa-solid fa-moon"></i>
+            </label>
+            <button class="hamburger">
+              <span></span>
+              <div class="bar"></div>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="Home" class="Home">
+      <div class="container">
+        <div class="home-info">
+          <div class="left">
+            <h3>Hello I'am</h3>
+            <h1>Pawankumar Pawar</h1>
+            <h4>And I'm a <span class="multiple"></span></h4>
+            <p>
+              Fresher skilled in Data Analysis, QA Testing, and web development.
+              having knowledge of Python, SQL, Excel, Power BI/Tableau, HTML,
+              and CSS. I have experience in data cleaning, EDA, dashboard
+              creation, writing test cases for functional and regression
+              testing, and building a web project using HTML/CSS. I enjoy
+              working with data, finding insights, creating clean interfaces,
+              and ensuring product quality through careful testing.
+            </p>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="mailto:YOUR_EMAIL"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="btn">
+              <a href="assets/Pawan_CV.pdf" download class="download-btn"><button>Download CV</button></a>
+              
+            </div>
+          </div>
+          <div class="right">
+            <div class="profile">
+              <img src="assets/my_img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="About">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-left">
+            <div class="about-image">
+              <img src="assets/d.png" alt="" />
+            </div>
+          </div>
+          <div class="about-right">
+            <div class="about-info">
+              <h2>About <span> Me</span></h2>
+              <h3>Data Analyst</h3>
+              <p>
+                passion for turning data into clear stories and making digital
+                products work flawlessly. With skills in Python, SQL, Excel,
+                Power BI/Tableau. worked on projects ranging from data analysis
+                and dashboard building to creating simple, clean web pages.I’m
+                curious, quick to learn, and excited to grow in a role where I
+                can blend analytics, and creativity to add real values.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skills" class="skills">
+      <h2>My <span> Skills</span></h2>
+
+      <div class="skills-container">
+        <!-- 1. Web Development -->
+        <div class="skill-card">
+          <h3>Web Development</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>HTML</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>CSS</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>JavaScript</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>SCSS</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Data Analyst -->
+        <div class="skill-card">
+          <h3>Data Analyst</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Python</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Pandas,<span> Numpy</span> and Matplotlib</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>SQL</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>PowerBI</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. QA Engineer -->
+        <div class="skill-card">
+          <h3>QA Engineer</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Manual Testing</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Test Cases</h4>
+                <p>Experienced</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Bug Reporting</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <i class="fa-solid fa-check"></i>
+              <div>
+                <h4>Jira</h4>
+                <p>Intermediate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects" class="projects">
+      <h2>Academic <span> Project</span></h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/1.png" alt="Animal Shelter Project" />
+          </div>
+
+          <div class="project-content">
+            <h3>Animal Shelter</h3>
+            <p>
+              Animal shelters serve as safe havens for abandoned, lost, or
+              surrendered animals. We provide temporary housing, nutritious
+              food, and essential medical care to a wide range of animals,
+              including dogs, cats, rabbits, and even certain exotic species.
+            </p>
+            <div class="btn">
+              <a href="#">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/2.png" alt="Agri Care Project" />
+          </div>
+
+          <div class="project-content">
+            <h3>Agri Care</h3>
+            <p>
+              A smart assistant designed for farmers that provides personalized
+              crop recommendations, real-time soil health insights, and accurate
+              weather updates.helping farmers to make better decisions, improve
+              yield, and manage their fields more efficiently.
+            </p>
+            <div class="btn">
+              <a href="#">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact">
+      <h2>Contact <span>Me</span></h2>
+
+      <div class="contact-container">
+        <form id="contact-form">
+          <div class="input-group">
+            <input type="text" id="name" name="name" required />
+            <label>Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" id="email" name="email" required />
+            <label>Email</label>
+          </div>
+
+          <div class="input-group">
+            <textarea id="message" name="message" required></textarea>
+            <label>Your Message</label>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <p id="status-msg"></p>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <h3 class="footer-logo"><span>Portfolio</span></h3>
+
+        <p class="footer-text">
+          Thank you for visiting my portfolio! Let's connect and build something
+          great together.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://wa.me/YOUR_NUMBER" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://github.com/YOUR_GITHUB" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:YOUR_EMAIL"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <p class="footer-copy">
+          © 2025 by Pawankumar Pawar | All Rights Reserved.</p>
+        <a href="#Home" class="to-top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
